@@ -8,7 +8,7 @@ $Configuration
 {
 	$Compiler
 	{
-		$AdditionalIncludeDirectories	"$BASE;$SRCDIR\vphysics_jolt\joltphysics\src"
+		$AdditionalIncludeDirectories	"$BASE;$SRCDIR\thirdparty\vphysics-jolt\joltphysics\src;$SRCDIR\public"
 
 		$PreprocessorDefinitions		"$BASE;JPH_DISABLE_CUSTOM_ALLOCATOR;JPH_DEBUG_RENDERER"
 

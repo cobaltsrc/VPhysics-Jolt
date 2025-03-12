@@ -8,7 +8,7 @@ $MacroRequired		"WRAPPER_NAME"
 
 $Macro SRCDIR		"..\..\.."
 $Macro OUTBINNAME	"$WRAPPER_NAME"
-$Macro OUTBINDIR	"$SRCDIR\..\$GAMEDIR\bin"
+$Macro OUTBINDIR	"$SRCDIR\..\game\bin"
 
 $Include "$SRCDIR\vpc_scripts\source_dll_base.vpc"
 
