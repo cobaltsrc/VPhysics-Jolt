@@ -6,7 +6,7 @@
 
 $MacroRequired		"WRAPPER_NAME"
 
-$Macro SRCDIR		"..\.."
+$Macro SRCDIR		"..\..\.."
 $Macro OUTBINNAME	"$WRAPPER_NAME"
 $Macro OUTBINDIR	"$SRCDIR\..\$GAMEDIR\bin"
 

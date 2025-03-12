@@ -6,7 +6,7 @@
 
 $MacroRequired		"PROJNAME"
 
-$Macro SRCDIR		"..\.."
+$Macro SRCDIR		"..\..\.."
 $Macro OUTBINDIR	"$SRCDIR\..\$GAMEDIR\bin"
 
 $Include "$SRCDIR\vpc_scripts\source_dll_base.vpc"
