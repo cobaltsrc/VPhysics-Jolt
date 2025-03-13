@@ -19,6 +19,8 @@ $Configuration
 	{
 		$Create/UsePrecompiledHeader	"Use Precompiled Header (/Yu)"
 		$Create/UsePCHThroughFile		"cbase.h"
+
+		$AdditionalOptions "$BASE /std:c++20"
 	}
 
 	$Linker

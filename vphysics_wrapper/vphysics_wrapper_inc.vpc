@@ -21,6 +21,11 @@ $Configuration
 		// ancient Visual Studio.
 		$AdditionalDependencies			"$BASE legacy_stdio_definitions.lib" [$GAME_ASW]
 	}
+	
+	$Compiler
+	{
+		$AdditionalOptions "$BASE /std:c++20"
+	}
 }
 
 $Project "vphysics_wrapper"
